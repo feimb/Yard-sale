@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  height: 32px;
+  padding: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2.8px solid #f7f7f7;
+}
+header .left-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+header .left-header li {
+  list-style: none;
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #c7c7c7;
+}
+header .left-header li img {
+  width: 120px;
+  height: auto;
+}
+header .left-header .header-all {
+  margin-left: 40px;
+  color: #ACD9B2;
+  border: 1.6px solid #ACD9B2;
+  border-radius: 25%;
+  padding: 1px 6.4px 1px 6.4px;
+}
+header .right-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+header .right-header li {
+  list-style: none;
+  margin-right: 16px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+header .right-header li .sing-in--button {
+  text-decoration: none;
+  color: #ACD9B2;
+}
+header .right-header li .shoping-cart {
+  width: 28px;
+  height: 28px;
+}
+
+.img-yard-sale__mobile {
+  width: 220px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.main--password-recovery-succed {
+  width: 100%;
+  height: 100%;
+}
+.main--password-recovery-succed form {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.main--password-recovery-succed form .main--password-recovery-text {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+.main--password-recovery-succed form .main--password-recovery-text :nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+}
+.main--password-recovery-succed form .main--password-recovery-text :nth-child(2) {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+}
+.main--password-recovery-succed form label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+}
+.main--password-recovery-succed form .email-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  outline: none;
+}
+.main--password-recovery-succed form button {
+  width: 100%;
+  height: 54px;
+  margin-top: 40px;
+  border: none;
+  background-color: #ACD9B2;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+}
+.main--password-recovery-succed form a {
+  margin-top: 36px;
+  align-self: center;
+  color: #ACD9B2;
+  cursor: pointer;
+}
+.main--password-recovery-succed form a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

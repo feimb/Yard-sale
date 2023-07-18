@@ -1,0 +1,10 @@
+@media (min-width: 931px){
+    .img-yard-sale__mobile{
+        display: none;
+    }
+}
+@media(max-width: 930px){
+    header{
+        display: none;
+    }
+}

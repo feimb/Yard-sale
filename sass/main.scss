@@ -1,0 +1,156 @@
+$primary-color: #c7c7c7;
+$secondary-color: #ffffff;
+$therty-color: #ACD9B2;
+$input-color: #f7f7f7;
+$darky-color: #000000;
+$md: 16px;
+$lg: 18px;
+// font-family: 'Quicksand', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.body-fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+header{
+    height: 32px;
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2.8px solid $input-color;
+    .left-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        li{
+            list-style: none;
+            margin-left: 8px;
+            font-size: $md;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
+            color: $primary-color;
+            img{
+                width: 120px;
+                height: auto;
+               
+            }
+        }
+        .header-all{
+            margin-left: 40px;
+            color: $therty-color;
+            border:  1.6px solid $therty-color ;
+            border-radius: 25%;
+            padding: 1px 6.4px 1px 6.4px;            
+        }
+    }
+    .right-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        li{
+            list-style: none;
+            margin-right: 16px;
+            font-size: $md;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
+            .sing-in--button{
+                text-decoration: none;
+                color: $therty-color;
+            }
+            .shoping-cart{
+                width: 28px;
+                height: 28px;
+            }
+        }
+     
+    }
+}
+.img-yard-sale__mobile{
+    width: 220px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.main--password-recovery-succed{
+    width: 100%;
+    height: 100%;
+    form{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 180px;
+        
+        .main--password-recovery-text{
+            width: 260px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
+            :nth-child(1){
+                font-size: $lg;
+                font-weight: bold;
+                font-family: 'Quicksand', sans-serif;
+                color: $darky-color; 
+            }
+            :nth-child(2){
+                margin-top: 0;
+                font-size: $lg;
+                font-weight: 300;
+                font-family: 'Quicksand', sans-serif;
+                color: $darky-color; 
+            }
+        }
+        label{
+            font-size: $md;
+            font-weight: bold;
+            color: $darky-color;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .email-input{
+            width: 100%;
+            height: 40px;
+            border: none;
+            background-color: $input-color;
+            border-radius: 6px;
+            outline: none;
+        }
+        button{
+            width: 100%;
+            height: 54px;
+            margin-top: 40px;
+            border: none;
+            background-color: $therty-color;
+            color: $secondary-color;
+            border-radius: 8px;
+            font-size: $lg;
+            font-weight: 500;
+            font-family:  'Quicksand', sans-serif;
+            cursor: pointer;
+        }
+        a{  
+            margin-top: 36px;
+            align-self: center;
+            color: $therty-color;
+            cursor: pointer;
+            &:hover{
+                
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
