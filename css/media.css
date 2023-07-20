@@ -2,9 +2,23 @@
     .img-yard-sale__mobile{
         display: none;
     }
+    .header__mobile{
+        display: none;
+    }
+   
 }
 @media(max-width: 930px){
-    header{
+    .header-desktop{
         display: none;
+    }
+    .img-yard-sale__mobile{
+        margin-bottom: 40px;
+    }
+    .header__mobile{
+        margin-bottom: 20px;
+    }
+    form .bottom-button{
+        position: absolute;
+        bottom: 80px;
     }
 }

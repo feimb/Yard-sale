@@ -12,7 +12,7 @@
     </head>
 
 <body class="body-fixed">
-    <header>
+    <header class="header-desktop">
         <ul class="left-header">
             <li>
                 <img src="./logo/logo_yard_sale.svg" alt="">
@@ -36,6 +36,8 @@
                 Others
             </li>
         </ul>
+
+
         <ul class="right-header">
             <li>
                 <a class="sing-in--button" href="">Sing in</a>
@@ -44,19 +46,34 @@
                 <img src="./icons/icon_shopping_cart.svg" alt="shoping cart" class="shoping-cart">
             </li>
         </ul>
-        </header>
-
-        <img src="logo/logo_yard_sale.svg" alt="Yard sale" class="img-yard-sale__mobile" >
+    </header>
+    <header class="header__mobile">
+        <div>
+            
+                <img src="icons/icon_menu.svg" alt="">
+            
+            
+                <img src="logo/logo_yard_sale.svg" alt="">
+            
+            
+                <img src="icons/icon_shopping_cart.svg" alt="">
+            
+        </div>
+    </header>
+    
     <main class="main--password-recovery-succed">
+        
         <form action="submit">
-            <div class="main--password-recovery-text">
-                <p>Pasword recovery</p>
-                <p>inform the email address used to create your accout</p>
-            </div>
+            <h2>My account</h2>      
+            
+            <label for="name">Name</label>
+            <input type="text" id="name" class="name-input" placeholder="camila">
             <label for="email">Email adress</label>
             <input type="email" id="email" class="email-input" placeholder="camila@gmail.com">
-            <button type="button">Submit</button>
-            <a>Back to log in<a>
+            <label for="password">Password</label>
+            <input type="password" id="password" class="password-input" placeholder="********">
+           
+            <button type="button" class="bottom-button">Create</button> 
         </form>
     </main>
 </body>

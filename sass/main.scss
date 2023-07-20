@@ -11,6 +11,7 @@ $lg: 18px;
 body{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .body-fixed{
     position: fixed;
@@ -19,13 +20,14 @@ body{
     bottom: 0;
     left: 0;
 }
-header{
+.header-desktop{
     height: 32px;
     padding: 4px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-bottom: 2.8px solid $input-color;
+    margin-bottom: 80px;
     .left-header{
         width: 100%;
         display: flex;
@@ -76,7 +78,29 @@ header{
         }
      
     }
+
 }
+
+.header__mobile{
+    height: 26px;
+    width: 100%;
+    padding: 4px;
+    
+    border-bottom: 2.8px solid $input-color;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        :nth-child(3){
+            margin-right: 4px;
+        }
+    }
+}
+
+
+
 .img-yard-sale__mobile{
     width: 220px;
     display: flex;
@@ -86,14 +110,24 @@ header{
 .main--password-recovery-succed{
     width: 100%;
     height: 100%;
+    
+    
+    
     form{
-        width: 300px;
+        width: 320px;
         height: 100%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        margin-top: 180px;
-        
+        margin-top: 0;
+        position: relative;
+        h2{
+            font-size: $lg;
+            font-weight: bold;
+            font-family: 'Quicksand', sans-serif;
+            color: $darky-color;
+            
+        }
         .main--password-recovery-text{
             width: 260px;
             display: flex;
@@ -115,18 +149,22 @@ header{
             }
         }
         label{
-            font-size: $md;
+            font-size: 0.9rem;
             font-weight: bold;
             color: $darky-color;
             font-family: 'Quicksand', sans-serif;
+            margin-top: 16px;
         }
-        .email-input{
+        input{
             width: 100%;
             height: 40px;
             border: none;
             background-color: $input-color;
             border-radius: 6px;
             outline: none;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: 'Quicksand', sans-serif;
         }
         button{
             width: 100%;
