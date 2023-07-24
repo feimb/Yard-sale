@@ -28,7 +28,7 @@ body {
   align-items: center;
   justify-content: start;
 }
-.header-desktop .left-header li {
+.header-desktop .left-header a {
   list-style: none;
   margin-left: 8px;
   font-size: 16px;
@@ -36,7 +36,7 @@ body {
   font-weight: 500;
   color: #c7c7c7;
 }
-.header-desktop .left-header li img {
+.header-desktop .left-header a img {
   width: 120px;
   height: auto;
 }
@@ -54,20 +54,20 @@ body {
   align-items: center;
   justify-content: end;
 }
-.header-desktop .right-header li {
+.header-desktop .right-header a {
   list-style: none;
   margin-right: 16px;
   font-size: 16px;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
 }
-.header-desktop .right-header li .sing-in--button {
-  text-decoration: none;
-  color: #ACD9B2;
-}
-.header-desktop .right-header li .shoping-cart {
+.header-desktop .right-header a .shoping-cart {
   width: 28px;
   height: 28px;
+}
+.header-desktop .right-header .sing-in--button {
+  text-decoration: none;
+  color: #ACD9B2;
 }
 
 .header__mobile {

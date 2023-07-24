@@ -34,7 +34,7 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: start;
-        li{
+        a{
             list-style: none;
             margin-left: 8px;
             font-size: $md;
@@ -61,20 +61,21 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: end;
-        li{
+        a{
             list-style: none;
             margin-right: 16px;
             font-size: $md;
             font-family: 'Quicksand', sans-serif;
             font-weight: 500;
-            .sing-in--button{
-                text-decoration: none;
-                color: $therty-color;
-            }
+           
             .shoping-cart{
                 width: 28px;
                 height: 28px;
             }
+        }
+        .sing-in--button{
+            text-decoration: none;
+            color: $therty-color;
         }
      
     }
